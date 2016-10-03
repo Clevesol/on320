@@ -1,0 +1,225 @@
+@font-face{
+	font-family : myRiad;
+	src : url ('/res/fonts/mrp.otf');
+}
+
+@font-face{
+	font-family : lithosPro;
+	src : url('/res/fonts/lpr.otf');
+}
+
+@font-face{
+	font-familly : "haettenschweiler";
+	src : url('/res/fonts/HATTEN.TTF');
+}
+
+
+@media(device-width < 1000px){
+	.container-fluid{
+		background-color : red;
+	}
+}
+
+img{
+	pointer-events : none;
+	line-height: 100%;
+	border-bottom : 1px solid black;
+	
+}
+
+.container-fluid{
+	padding:0;
+	margin:0px;
+}
+
+
+
+
+.mynavigation-bar{
+	
+	height : 140px;
+	padding:0px;
+	margin:0px;
+}
+
+#logo {
+	background-image: url('/res/img/logo_day.png');
+	background-repeat: no-repeat;
+	background-position : left;	
+	margin-left : 20px;
+	line-height: 100%;	
+	height : 100%;
+}
+
+#logo-d{
+	background-image: url('/res/img/logo_light.png');
+	background-repeat: no-repeat;
+	background-position : left;	
+	margin-left : 20px;
+	line-height: 100%;	
+	height : 100%;
+}
+
+
+
+#right-pane{
+	height : 100%;
+	
+}
+
+
+
+#info-pane,#contact-pane{
+	display:inline-block;
+	/*padding : 10px 5px 2px 5px;*/
+}
+
+#info-pane{
+	padding : 2px 0px 12px 5px;	
+}
+
+
+#contact-pane{
+	margin-top : 15px;
+	padding : 12px 0 2px 5px;
+}
+
+#pnum, #email, #message {
+	
+	background-repeat: no-repeat;
+	background-position: left-center;
+	padding: 10px 0 10px 40px;
+	display:inline-block;
+	float:left;
+	line-height: 100%;
+	height : 100%;
+	
+}
+
+#pnum,#email{
+	padding : 10px 0px 10px 36px;
+	font-family : "myRiad";
+	font-size : 14px;
+	font-weight : bold;
+}
+
+
+#pnum {
+	
+	background-image: url("/res/ico/ph_nb.png");
+	
+}
+
+#email {
+	margin-left: 30px;
+	background-image: url("/res/ico/ma_nb.png");
+}
+
+#message {
+	
+	font-family : "lithosPro";
+	font-weight : bold;
+	background-image: url("/res/ico/right_choice.png");
+	line-height : 100%;
+	text-align : center;
+	padding : 20px 0 20px 50px;
+}
+
+
+
+#info {
+	/*padding: 20px 0 10px 0;
+	float: right;*/
+}
+
+
+#content{
+	background-image : url("/res/img/content_bg.jpg");
+	background-size: 100%;
+	background-repeat:no-repeat;
+	
+}
+
+#reservation-details{
+	background-color : white;
+	border : 1px solid black;	
+	margin-top : 70px;
+	margin-bottom : 10px;
+}
+
+#reservation-details h1{
+		/*font-family: "haettenschweiler";
+		font-size:37px;
+		color:gray;
+		text-transform : uppercase;
+		padding-bottom:10px;
+		padding-left : 55px;
+		height : 100%;
+		line-height: 100%;
+		text-align:center;
+		border-bottom : 5px solid #ffcc33;*/
+		
+		font-family: "haettenschweiler";
+		font-size:37px;
+		color:gray;
+		background-image: url('/res/ico/book_me.png');
+		background-repeat:no-repeat;
+		text-transform : uppercase;
+		padding-left:20px;
+		padding-bottom:10px;
+		background-position: 20% 15% ;
+		line-height: 100%;
+		text-align:center;
+		border-bottom : 5px solid #ffcc33;
+		
+}
+
+/*
+#name{
+	background-image : url('/res/ico/pupils_icon.png') no-repeat;
+}
+*/
+
+
+.form-control[type="text"],.form-control[type="email"],.form-control[type="date"],.form-control[list],.form-control[type="tel"]{
+	
+	border: none;
+	font-family : "myriad-pro";
+	text-transform  : uppercase;	
+	font-size : 22px;
+	border-bottom : 1px solid #999;
+	border-radius: 0px;
+	background-color : inherit;
+	outline : none;
+	box-shadow: none;
+	text-align: center;	
+}
+.form-control[type="text"]:HOVER{
+	border-bottom : 3px solid #ffcc33;
+}
+.input-group-addon{
+	border:none;
+	outline:none;
+	box-shadow: 0;
+	border-radius:0;
+	background-color:inherit;
+	border-bottom : 2px solid #ffcc33;
+	color : gray;
+}
+
+.glyphicon{
+	border-radius : 80%;
+	font-size:26px;
+	border :1px solid red;
+	background-color:black;
+}
+
+
+#footer{
+	background-color:#666666;
+	padding : 0;	
+}
+
+#footer.mynavigation-bar a	{
+	background-position : right;	
+}
